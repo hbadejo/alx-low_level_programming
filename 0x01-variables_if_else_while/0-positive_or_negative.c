@@ -4,11 +4,16 @@
 
 /*
  * main - Entry point
+ * main - Determines if number is less, greater or equals zero (0)
+ * Return: Always 0 (Success)
+ */
+
+/**
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
 	int n;
 
