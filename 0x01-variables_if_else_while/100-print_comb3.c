@@ -15,7 +15,7 @@ int main(void)
 		{
 			if (inVar / 10 % 10 > inVar % 10)
 				break;
-			invar /= 10;
+			inVar /= 10;
 			if (inVar == 0)
 			{
 				if ((ouVar % 11) != 0 && ouVar != 11)
