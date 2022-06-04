@@ -23,6 +23,8 @@ int main(void)
 					putchar(' ');
 					putchar((_j) + '0');
 					putchar((_k) + '0');
+					if (_ == 9 && _i == 8 && _j == 9 && _k == 9)
+						break;
 					putchar(',');
 					putchar(' ');
 				}
