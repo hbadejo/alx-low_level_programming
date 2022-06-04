@@ -3,33 +3,24 @@
 /**
  * main - Entry point
  *
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int inVar, ouVar;
+	int _, _i;
 
-	for (ouVar = 0; ouVar <= 99; ouVar++)
+	for (_ = 0; _ < 9; _++)
 	{
-		for (inVar = 0; inVar <= 99; inVar++)
+		for (_i = _ + 1; _i < 10; _i++)
 		{
-			if (inVar / 10 % 10 > inVar % 10)
-				break;
-			inVar /= 10;
-			if (inVar == 0)
-			{
-				if ((ouVar % 11) != 0 && ouVar != 11)
-				{
-					putchar((ouVar / 10) + '0');
-					putchar((ouVar % 10) + '0');
-					if (ouVar < 89)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-				break;
-			}
+			putchar((_) + '0');
+			putchar((_i) + '0');
+
+			if (_ == 8 && _i == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
