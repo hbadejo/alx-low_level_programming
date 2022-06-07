@@ -26,8 +26,10 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(multiplication + '0');
 			}
-			else
+			else if (multiplication >= 10)
 			{
+				_putchar(',');
+				_putchar(' ');
 				_putchar((multiplication / MAX) + '0');
 				_putchar((multiplication % MAX) + '0');
 			}
