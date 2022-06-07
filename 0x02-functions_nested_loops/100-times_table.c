@@ -1,12 +1,9 @@
 #include "main.h"
-
-/*
- *function name  - Purpose of function
+/**
+ * print_times_table - Print multiplcation
  *
- *Return: What does the function return.
- *
+ * Return: returns multiplcation table
  */
-
 #define MAX 10
 
 void print_times_table(int _)

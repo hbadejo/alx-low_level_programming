@@ -1,12 +1,10 @@
 #include "main.h"
 
-/*
- *function name  - Purpose of function
+/**
+ * print_to_98 - Print from number given up or down to 98
  *
- *Return: What does the function return.
- *
+ * Return: return no value
  */
-
 void print_to_98(int _)
 {
 	int i, j;
@@ -17,7 +15,7 @@ void print_to_98(int _)
 		{
 			if (i != 98)
 				printf("%d, ", i);
-			else 
+			else
 				printf("%d\n", i);
 		}
 	}

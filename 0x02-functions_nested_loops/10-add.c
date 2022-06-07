@@ -1,14 +1,13 @@
 #include "main.h"
 
-/*
- *function name  - Purpose of function
+/**
+ * add - Add two integer together
  *
- *Return: What does the function return.
- *
+ * Return: return sum
  */
-
-int add(int i, int j)
+int add(int _, int _i)
 {
-	int result = i + j;
-	return result;
+	int result = _ + _i;
+
+	return (result);
 }

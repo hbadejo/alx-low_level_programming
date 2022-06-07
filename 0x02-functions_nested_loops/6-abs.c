@@ -1,12 +1,10 @@
 #include "main.h"
 
-/*
- *function name  - Purpose of function
+/**
+ * _abs - Returns absolute value of i
  *
- *Return: What does the function return.
- *
+ * Return: returns absolute value
  */
-
 int _abs(int i)
 {
 	if (i > 0)

@@ -1,20 +1,18 @@
 #include "main.h"
 
-/*
- *function name  - Purpose of function
+/**
+ * print_sign - determines signs based on input value
  *
- *Return: What does the function return.
- *
+ * Return: return 1 if '+', -1 if '-', 0 if 0
  */
-
-int print_alphabet(int i)
+int print_sign(int n)
 {
-	if (i > 0)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
 	}
-	else if (i < 0)
+	else if (n < 0)
 	{
 		_putchar('-');
 		return (-1);

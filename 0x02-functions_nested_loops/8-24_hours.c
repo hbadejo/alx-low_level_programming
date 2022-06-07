@@ -1,25 +1,22 @@
 #include "main.h"
-
-/*
- *function name  - Purpose of function
+/**
+ * jack_bauer - Entry point
  *
- *Return: What does the function return.
- *
+ * Return: return values
  */
-
 void jack_bauer(void)
 {
-	int _, __;
+	int _, _i;
 
 	for (_ = 0; _ < 24; _++)
 	{
-		for (__ = 0; __ < 60; __++)
+		for (_i = 0; _i < 60; _i++)
 		{
 			_putchar((_ / 10) + '0');
 			_putchar((_ % 10) + '0');
 			_putchar(':');
-			_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
+			_putchar((_i / 10) + '0');
+			_putchar((_i % 10) + '0');
 			_putchar('\n');
 		}
 	}

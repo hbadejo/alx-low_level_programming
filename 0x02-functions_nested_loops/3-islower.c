@@ -3,7 +3,7 @@
 /**
  * _islower - Print lower case characters
  *
- * Return - return nothing
+ * Return: returns 1 if is lower, else it returns 0
  */
 int _islower(int _)
 {

@@ -1,12 +1,10 @@
 #include "main.h"
 
-/*
- *function name  - Purpose of function
+/**
+ * print_last_digit - Print the absolute value of last digit of _
  *
- *Return: What does the function return.
- *
+ * Return: returns the abs last digit of _
  */
-
 int print_last_digit(int _)
 {
 	int _i;
