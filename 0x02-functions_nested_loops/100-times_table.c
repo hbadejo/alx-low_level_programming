@@ -10,7 +10,7 @@
 
 void print_times_table(int _)
 {
-	int a, b, mutiplication;
+	int a, b, multiplication;
 
 	for (a = 0; a < _; a++)
 	{
