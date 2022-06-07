@@ -9,7 +9,7 @@
  */
 void print_to_98(int _)
 {
-	int i, j;
+	int i;
 
 	if (_ == 98)
 	{
@@ -28,7 +28,7 @@ void print_to_98(int _)
 		{
 			for (i = _; i >= 98; i--)
 			{
-				-putchar('i');
+				_putchar('i');
 			}
 		}
 	}
