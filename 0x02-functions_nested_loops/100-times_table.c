@@ -3,6 +3,8 @@
  * print_times_table - Print multiplcation
  *
  * Return: returns multiplcation table
+ *
+ * @_: function argument
  */
 #define MAX 10
 

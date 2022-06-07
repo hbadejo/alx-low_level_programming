@@ -4,6 +4,8 @@
  * print_last_digit - Print the absolute value of last digit of _
  *
  * Return: returns the abs last digit of _
+ *
+ * @_: function argument
  */
 int print_last_digit(int _)
 {

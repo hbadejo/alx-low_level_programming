@@ -4,6 +4,8 @@
  * _abs - Returns absolute value of i
  *
  * Return: returns absolute value
+ *
+ * @i: function argument
  */
 int _abs(int i)
 {

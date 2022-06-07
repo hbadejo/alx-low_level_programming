@@ -4,6 +4,8 @@
  * print_sign - determines signs based on input value
  *
  * Return: return 1 if '+', -1 if '-', 0 if 0
+ *
+ * @n: function argument
  */
 int print_sign(int n)
 {

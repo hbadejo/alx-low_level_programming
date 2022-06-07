@@ -4,6 +4,9 @@
  * add - Add two integer together
  *
  * Return: return sum
+ *
+ * @_: function argument
+ * @_i: function argument
  */
 int add(int _, int _i)
 {

@@ -4,6 +4,8 @@
  * print_to_98 - Print from number given up or down to 98
  *
  * Return: return no value
+ *
+ * @_: function argument
  */
 void print_to_98(int _)
 {

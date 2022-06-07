@@ -4,6 +4,8 @@
  * _isalpha - Determines if an ASCII value is a alphabet
  *
  * Return: returns 1 if values is ACSII char, else it returns 0
+ *
+ * @_: function argument
  */
 int _isalpha(int _)
 {

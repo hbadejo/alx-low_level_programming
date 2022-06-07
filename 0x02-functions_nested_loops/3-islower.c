@@ -4,6 +4,8 @@
  * _islower - Print lower case characters
  *
  * Return: returns 1 if is lower, else it returns 0
+ *
+ * @_: This is the input to _islower
  */
 int _islower(int _)
 {
