@@ -11,24 +11,25 @@ void print_to_98(int _)
 {
 	int i, j;
 
-	if (_ <= 98)
+	if (_ == 98)
 	{
-		for (i = 0, i <= 98; i++)
-		{
-			if (i != 98)
-				printf("%d, ", i);
-			else
-				printf("%d\n", i);
-		}
+		_putchar('_');
 	}
 	else
 	{
-		for (j = _; j >= 98; j--)
+		if (_ < 98)
 		{
-			if (j != 98)
-				printf("%d, ", j);
-			else
-				printf("%d\n", j);
+			for (i = _; i <= 98; i++)
+			{
+				_putchar('i');
+			}
+		}
+		else
+		{
+			for (i = _; i >= 98; i--)
+			{
+				-putchar('i');
+			}
 		}
 	}
 }
