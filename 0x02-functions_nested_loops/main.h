@@ -1,9 +1,3 @@
-#ifndef MAIN_H_
-#define MAIN_H_
-
-//Above is a guard again double main function definition.
-
-
 void print_alphabet_x10(void);
 
 void print_times_table(int n);
@@ -31,5 +25,3 @@ void print_alphabet(void);
 int _putchar(char c);
 
 void print_putchar(void);
-
-#endif
