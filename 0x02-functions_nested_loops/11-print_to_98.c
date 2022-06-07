@@ -13,7 +13,7 @@ void print_to_98(int _)
 
 	if (_ == 98)
 	{
-		_putchar('_');
+		_putchar(_);
 	}
 	else
 	{
@@ -21,14 +21,18 @@ void print_to_98(int _)
 		{
 			for (i = _; i <= 98; i++)
 			{
-				_putchar('i');
+				_putchar(i);
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 		else
 		{
 			for (i = _; i >= 98; i--)
 			{
-				_putchar('i');
+				_putchar(i);
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 	}
