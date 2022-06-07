@@ -28,8 +28,8 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar(',');
-				_putchar(' ');
+				_putchar((multiplication / MAX) + '0');
+				_putchar((multiplication % MAX) + '0');
 			}
 		}
 		_putchar('\n');
