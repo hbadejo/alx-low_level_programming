@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,7 +14,7 @@ void print_to_98(int _)
 
 	if (_ == 98)
 	{
-		_putchar(_ + '0');
+		printf("%d, ", _);
 	}
 	else
 	{
@@ -21,18 +22,14 @@ void print_to_98(int _)
 		{
 			for (i = _; i <= 98; i++)
 			{
-				_putchar(i + '0');
-				_putchar(',');
-				_putchar(' ');
+				printf("%d, ", i);
 			}
 		}
 		else
 		{
 			for (i = _; i >= 98; i--)
 			{
-				_putchar(i + '0');
-				_putchar(',');
-				_putchar(' ');
+				printf("%d, ", i);
 			}
 		}
 	}
