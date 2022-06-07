@@ -1,15 +1,13 @@
 #include "main.h"
 
-/*
- *function name  - Purpose of function
+/**
+ * _islower - Print lower case characters
  *
- *Return: What does the function return.
- *
+ * Return - return nothing
  */
-
-int _islower(int i)
+int _islower(int _)
 {
-	if (i > 96 && i < 123)
+	if (_ > 96 && _ < 123)
 		return (1);
 	else
 		return (0);

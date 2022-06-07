@@ -1,12 +1,10 @@
 #include "main.h"
 
-/*
- *function name  - Purpose of function
+/**
+ * print_alphabet_x10 - Print ASCII characters
  *
- *Return: What does the function return.
- *
+ * Return: returns no value
  */
-
 void print_alphabet_x10(void)
 {
 	int _, _i;

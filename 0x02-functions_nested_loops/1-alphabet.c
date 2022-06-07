@@ -1,12 +1,10 @@
 #include "main.h"
 
-/*
- *function name  - Purpose of function
+/**
+ * print_alphabet - Print a - z
  *
- *Return: What does the function return.
- *
+ * Return: returns void
  */
-
 void print_alphabet(void)
 {
 	char _ = 'a';
