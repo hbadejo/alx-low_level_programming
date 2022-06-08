@@ -4,40 +4,48 @@
  *
  * Return: returns multiplcation table
  *
- * @_: function argument
+ * @n: function argument
  */
-#define MAX 10
-
-void print_times_table(int _)
+void print_times_table(int n)
 {
-	int a, b, multiplication;
+	int x, y, z;
 
-	for (a = 0; a < _; a++)
+	if (n >= 0 && n <= 14)
 	{
-		for (b = 0; b < _; b++)
+		for (x = 0; x <= n; x++)
 		{
-			if (!(_ < 0 || _ > 15))
+			for (y = 0; y <= n; y++)
 			{
-				multiplication = b * a;
-
-				if (b == 0)
-					_putchar(multiplication + '0');
-				if (multiplication < MAX && b != 0)
+				z = x * y;
+				if (z > 99)
 				{
 					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(multiplication + '0');
+					_putchar(32);
+					_putchar((z / 100) + '0');
+					_putchar(((z / 10) % 10) + '0');
+					_putchar((z % 10) + '0');
+				}
+				else if (z > 9)
+				{
+					_putchar(',');
+					_putchar(32);
+					_putchar(32);
+					_putchar(((z / 10) % 10) + '0');
+					_putchar((z % 10) + '0');
 				}
 				else
 				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar((multiplication / MAX) + '0');
-					_putchar((multiplication % MAX) + '0');
+					if (y != 0)
+					{
+						_putchar(',');
+						_putchar(32);
+						_putchar(32);
+						_putchar(32);
+					}
+					_putchar(z + '0');
 				}
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }

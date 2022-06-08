@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	int _, _i, _j, _r;
+	unsigned int _, _i, _j, _r;
 
 	_i = 1;
 	_j = 2;
 
-	printf("%d, %d\n", _i, _j);
+	printf("%d, %d, ", _i, _j);
 
 	for (_ = 0; _ < 48; _++)
 	{
