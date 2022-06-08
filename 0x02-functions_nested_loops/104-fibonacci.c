@@ -1,41 +1,37 @@
 #include <stdio.h>
 
 /**
- * main - finds and prints the first 98 Fibonacci numbers,
- * starting with 1 and 2
- * followed by a new line
+ * main - Print the first 98 terms of Fibonacci sequence
+ *
  * Return: ALways 0 (Success)
  */
 int main(void)
 {
-	unsigned long int i, j, k, j1, j2, k1, k2;
+	unsigned long int _, _i = 1, _j = 2, _k, _l, _m, _n;
 
-	j = 1;
-	k = 2;
+	printf("%lu", _i);
 
-	printf("%lu", j);
-
-	for (i = 1; i < 91; i++)
+	for (_ = 1; _ < 91; _++)
 	{
-		printf(", %lu", k);
-		k = k + j;
-		j = k - j;
+		printf(", %lu", _j);
+		_j += _i;
+		_i = _j - _i;
 
 	}
 
-	j1 = j / 1000000000;
-	j2 = j % 1000000000;
-	k1 = k / 1000000000;
-	k2 = k % 1000000000;
+	_k = _i / 1000000000;
+	_l = _i % 1000000000;
+	_m = _j / 1000000000;
+	_n = _j % 1000000000;
 
-	for (i = 92; i < 99; ++i)
+	for (_ = 92; _ < 99; _++)
 	{
-		printf(", %lu", k1 + (k2 / 1000000000));
-		printf("%lu", k2 % 1000000000);
-		k1 = k1 + j1;
-		j1 = k1 - j1;
-		k2 = k2 + j2;
-		j2 = k2 - j2;
+		printf(", %lu", _m + (_n / 1000000000));
+		printf("%lu", _n % 1000000000);
+		_m = _m + _k;
+		_k = _m - _k;
+		_n = _n + _l;
+		_l = _n - _l;
 	}
 
 	printf("\n");
