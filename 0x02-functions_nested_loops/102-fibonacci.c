@@ -16,7 +16,7 @@ int main(void)
 
 	for (_ = 0; _ < 48; _++)
 	{
-		r = _i + _j;
+		_r = _i + _j;
 		if (_ == 47)
 			printf("%d\n", _r);
 		else
