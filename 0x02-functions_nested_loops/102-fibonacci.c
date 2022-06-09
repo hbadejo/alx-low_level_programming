@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-	unsigned int _, _i, _j, _r;
+	unsigned long int _, _i, _j, _r;
 
 	_i = 1;
 	_j = 2;
 
-	printf("%d, %d, ", _i, _j);
+	printf("%lu, %lu, ", _i, _j);
 
 	for (_ = 0; _ < 48; _++)
 	{
 		_r = _i + _j;
 		if (_ == 47)
-			printf("%d\n", _r);
+			printf("%lu\n", _r);
 		else
-			printf("%d, ", _r);
+			printf("%lu, ", _r);
 
 		_i = _j;
 		_j = _r;
