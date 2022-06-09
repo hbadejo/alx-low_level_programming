@@ -19,9 +19,13 @@ int largest_number(int _, int _i, int _j)
 			largest = _j;
 	}
 	else if (_i > _j)
+	{
 		largest = _i;
+	}
 	else
+	{
 		largest = _j;
+	}
 
 	return (largest);
 }
