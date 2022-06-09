@@ -10,17 +10,17 @@ int main(void)
 {
 	long number = 612852475143;
 	long div = 2;
-	long prime = 0;
+	long prime_fac = 0;
 
 	while (number != 1)
 	{
 		if (number  % div == 0)
 		{
-			number = number / div;
-			prime = div;
+			number /= div;
+			prime_fac = div;
 		}
 		div += 1;
 	}
-	printf("%ld\n", prime);
+	printf("%ld\n", prime_fac);
 	return (0);
 }
