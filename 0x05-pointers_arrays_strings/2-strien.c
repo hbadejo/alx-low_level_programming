@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - Function that counts the lenght of a string
- * @s: The Pointer variable to hold string
+ * _strlen - Function that counts the length of a string
+ * @s: Pointer variable
  *
- * Return: Lenght of String
+ * Return: Length of String
  */
 int _strlen(char *s)
 {
@@ -16,4 +16,3 @@ int _strlen(char *s)
 	}
 	return (i);
 }
-
