@@ -1,0 +1,15 @@
+total 36
+-rw-r--r-- 1 root root 152 Jun 12 08:46 0-reset_to_98.c
+-rw-r--r-- 1 root root   0 Jun 12 08:44 100-atoi.c
+-rw-r--r-- 1 root root   0 Jun 12 08:44 101-keygen.c
+-rw-r--r-- 1 root root 235 Jun 12 08:49 1-swap.c
+-rw-r--r-- 1 root root 237 Jun 12 08:51 2-strien.c
+-rw-r--r-- 1 root root 221 Jun 12 08:54 3-puts.c
+-rw-r--r-- 1 root root 270 Jun 12 09:05 4-print_rev.c
+-rw-r--r-- 1 root root 347 Jun 12 09:07 5-rev_string.c
+-rw-r--r-- 1 root root 271 Jun 12 09:08 6-puts2.c
+-rw-r--r-- 1 root root 284 Jun 12 09:11 7-puts_half.c
+-rw-r--r-- 1 root root   0 Jun 12 08:43 8-print_array.c
+-rw-r--r-- 1 root root   0 Jun 12 08:43 9-strcpy.c
+-rw-r--r-- 1 root root 327 Jun 13 08:04 main.h
+-rw-r--r-- 1 root root   0 Jun 13 08:05 README.md
