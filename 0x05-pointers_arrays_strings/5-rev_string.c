@@ -3,7 +3,7 @@
 /**
  * rev_string - This Function reveses a string
  * @s: Pointer variable
- * 
+ *
  * Return: Nothing
  */
 void rev_string(char *s)
