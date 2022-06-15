@@ -1,0 +1,14 @@
+total 48
+-rw-r--r-- 1 root root 413 Jun 14 02:29 0-strcat.c
+-rw-r--r-- 1 root root 468 Jun 14 03:58 100-rot13.c
+-rw-r--r-- 1 root root 284 Jun 14 03:58 101-print_number.c
+-rw-r--r-- 1 root root 414 Jun 14 03:58 102-magic.c
+-rw-r--r-- 1 root root 424 Jun 14 02:51 1-strncat.c
+-rw-r--r-- 1 root root 421 Jun 14 03:27 2-strncpy.c
+-rw-r--r-- 1 root root 376 Jun 14 03:56 3-strcmp.c
+-rw-r--r-- 1 root root 304 Jun 14 03:56 4-rev_array.c
+-rw-r--r-- 1 root root 340 Jun 14 03:57 5-string_to_upper.c
+-rw-r--r-- 1 root root 469 Jun 14 03:57 6-cap_string.c
+-rw-r--r-- 1 root root 462 Jun 14 03:57 7-leet.c
+-rw-r--r-- 1 root root 377 Jun 14 03:59 main.h
+-rw-r--r-- 1 root root   0 Jun 15 11:22 README.md
