@@ -1,4 +1,4 @@
-o#include <string.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -7,7 +7,7 @@ o#include <string.h>
  *
  * Return: Uppercase string
  */
-char *str_ing_toupper(char *str)
+char *string_toupper(char *str)
 {
 	int _i, len = strlen(str);
 
