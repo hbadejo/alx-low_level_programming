@@ -10,7 +10,7 @@
 char *cap_string(char *s)
 {
 	int i, j, len;
-	int array[13] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+	int array[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
 	len = strlen(s);
 
@@ -18,8 +18,6 @@ char *cap_string(char *s)
 	{
 		for (j = 0; j < 13; j++)
 		{
-			if (s[i] == array[1])
-				s[i] = 32;
 			if (s[i] == array[j] && (s[i + 1] >= 97 && s[i + 1] <= 122))
 				s[i + 1] -= 32;
 		}
