@@ -3,7 +3,7 @@
 
 /**
  * string_toupper - Change cases to upper
- * @stri: Pointer varaible
+ * @str: Pointer varaible
  *
  * Return: Uppercase string
  */
