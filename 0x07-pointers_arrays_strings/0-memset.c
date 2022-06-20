@@ -4,7 +4,8 @@
  * _memset - Memset function
  * @s: Void Pointer argument: Starting add of memory to be filled
  * @b: Variable argument: Value to be filled
- * @n: Variable argument: Number of bytes to be filled starting from ptr to be filled
+ * @n: Variable argument: Number of bytes to be filled
+ * starting from ptr to be filled
  *
  * Return: Memlike function
  */

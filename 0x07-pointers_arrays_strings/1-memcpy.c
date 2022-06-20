@@ -4,7 +4,8 @@
  * _memcpy - Memset function
  * @dest: Void Pointer argument: Starting add of memory to be filled
  * @src: Void Pointer argument
- * @n: Variable argument: Number of bytes to be filled starting from ptr to be filled
+ * @n: Variable argument: Number of bytes to
+ * be filled starting from ptr to be filled
  *
  * Return: Memlike function
  */
