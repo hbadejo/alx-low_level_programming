@@ -1,0 +1,13 @@
+total 44
+-rw-r--r-- 1 root root 414 Jun 20 15:09 0-memset.c
+-rw-r--r-- 1 root root 306 Jun 20 15:07 100-set_string.c
+-rw-r--r-- 1 root root   6 Jun 20 15:07 101-crackme_password
+-rw-r--r-- 1 root root 427 Jun 20 15:10 1-memcpy.c
+-rw-r--r-- 1 root root 332 Jun 20 15:07 2-strchr.c
+-rw-r--r-- 1 root root 511 Jun 20 15:07 3-strspn.c
+-rw-r--r-- 1 root root 448 Jun 20 15:07 4-strpbrk.c
+-rw-r--r-- 1 root root 551 Jun 20 15:07 5-strstr.c
+-rw-r--r-- 1 root root 304 Jun 20 15:07 7-print_chessboard.c
+-rw-r--r-- 1 root root 389 Jun 20 15:12 8-print_diagsums.c
+-rw-r--r-- 1 root root 407 Jun 20 15:07 main.h
+-rw-r--r-- 1 root root   0 Jun 20 15:13 README.md
