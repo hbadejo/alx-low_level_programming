@@ -1,0 +1,12 @@
+total 40
+-rw-r--r-- 1 root root  463 Jun 22 13:42 0-puts_recursion.c
+-rw-r--r-- 1 root root  928 Jun 22 13:42 100-is_palindrome.c
+-rw-r--r-- 1 root root 1430 Jun 22 13:42 101-wildcmp.c
+-rw-r--r-- 1 root root  258 Jun 22 13:42 1-print_rev_recursion.c
+-rw-r--r-- 1 root root  287 Jun 22 13:42 2-strlen_recursion.c
+-rw-r--r-- 1 root root  347 Jun 22 13:42 3-factorial.c
+-rw-r--r-- 1 root root  256 Jun 22 13:42 4-pow_recursion.c
+-rw-r--r-- 1 root root  541 Jun 22 13:42 5-sqrt_recursion.c
+-rw-r--r-- 1 root root  580 Jun 22 13:42 6-is_prime_number.c
+-rw-r--r-- 1 root root  294 Jun 22 13:42 main.h
+-rw-r--r-- 1 root root    0 Jun 22 13:42 README.md
