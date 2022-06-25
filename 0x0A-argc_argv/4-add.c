@@ -11,29 +11,31 @@
  */
 int main(int argc, char **argv)
 {
-	int add = 0, num, k, j, i;
+	int add = 0, j, i;
 
 	if (argc < 2)
-	{
 		printf("%d\n", 0);
-	}
+
 	else
 	{
 		for (i = 1; i < argc; i++)
 		{
 			for (j = 0; argv[i][j] != '\0'; j++)
 			{
+				printf("Value of argv[%d][%d] = %c\n", i, j, argv[i][j]);
 				if (argv[i][j] > '9' || argv[i][j] < '0')
 				{
-					puts("error");
+					puts("Error");
 					return (1);
 				}
 			}
 		}
-		for (k = 1; k < argc; k++)
+
+		i = 0;
+
+		for (i = 1; i < argc; i++)
 		{
-			num = atoi(argv[k]);
-			add += num;
+			add += atoi(argv[i]);
 		}
 		printf("%d\n", add);
 	}
