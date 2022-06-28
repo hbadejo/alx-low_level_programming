@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 
 	if (p == NULL)
 		return (0);
-	while (i <= size + 1)
+	while (i <= size)
 	{
 		*(p + i) = c;
 		i++;
