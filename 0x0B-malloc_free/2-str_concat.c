@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <string.h>
 /**
  * str_concat - Concatinate @s1 and @s2
  * @s1: First string
