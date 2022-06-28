@@ -8,17 +8,13 @@
  *
  * Return:  On success,
  * the _strdup() function returns a pointer to the duplicated
- * string.  It returns NULL if insufficient memory was availab
+ * string.  It returns NULL if insufficient memory was allocated
 */
-
-
 char *_strdup(char *str)
 {
 	char *dup;
-	unsigned int i, lenght;
+	unsigned int i = 0, lenght = 0;
 
-	i = 0;
-	lenght = 0;
 	if (str == NULL)
 	{
 		return (NULL);
