@@ -8,7 +8,6 @@
  *
  * Return: on success, return pointer to the Matrix
  */
-
 int **alloc_grid(int width, int height)
 {
 	int **arr;
