@@ -7,15 +7,15 @@ CFLAGS = -Wall -Werror -Wextra -pedantic
 
 .PHONY: all clean oclean fclean re
 
-all: ${OBJ} m.h
+all: m.h ${OBJ}
 	${CC} ${OBJ} -o ${NAME}	#Compile all files
 
 clean:
 	${RM} *~ ${NAME}	#remove temp VIM files
+
 oclean:			
 	${RM} ${OBJ}	#remove object files
 
 fclean: clean oclean 	#remove exec files, object files, and temp VIM files
-
 
 re: fclean all #Forcew recompilation of all source files
