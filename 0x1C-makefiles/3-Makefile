@@ -1,9 +1,9 @@
 .DEFAULT_GOAL := all
-CC := gcc	#Variable for compiler
-SRC := ${wildcard *.c} #Pointer to source files
-OBJ := ${SRC:%.c=%.o}
-NAME := school
-RM := rm -f
+CC = gcc	#Variable for compiler
+SRC = main.c school.c  #Pointer to source files
+OBJ = ${SRC:%.c=%.o}
+NAME = school
+RM = rm -f
 
 all: ${OBJ}
 	${CC} ${OBJ} -o ${NAME}	#Compile all files
