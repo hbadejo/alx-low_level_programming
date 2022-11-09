@@ -3,11 +3,10 @@ CC = gcc	#Variable for compiler
 SRC = main.c school.c  #Pointer to source files
 OBJ = ${SRC:%.c=%.o}
 NAME = school
-RM = rm -f
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
-all: ${OBJ}
-	${CC} ${CFLAGS} ${OBJ} -o ${NAME}	#Compile all files
+all: ${OBJ} m.h
+	${CC} ${OBJ} -o ${NAME}	#Compile all files
 
 clean:
 	${RM} *~ ${NAME}	#remove temp VIM files
