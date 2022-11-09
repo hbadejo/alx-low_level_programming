@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
-CC := gcc
-SRC := main.c school.c
+CC = gcc
+SRC = ${wildcard *.c}
 
 
 all: ${SRC}
