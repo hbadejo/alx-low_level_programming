@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
-CC := gcc	#Variable for compiler
-SRC := ${wildcard *.c} #Pointer to source files
+CC := gcc
+SRC := ${wildcard *.c}
 
 
 all: ${SRC}
