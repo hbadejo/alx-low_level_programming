@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
-CC := gcc	#Variable for compiler
-SRC := ${wildcard *.c} #Pointer to source files
+CC = gcc	#Variable for compiler
+SRC = main.c school.c #Pointer to source files
 OBJ := ${SRC:%.c=%.o}
 NAME := school
 
