@@ -1,0 +1,6 @@
+.DEFAULT_GOAL := all
+objects := school.c main.c
+
+all: ${objects}
+	gcc ${objects} -o school
+
